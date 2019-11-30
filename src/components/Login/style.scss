@@ -35,18 +35,8 @@
         }
       }
     }
-    .error {
-      color: #f00;
-      font-size: 14px;
-    }
     .submit {
-      padding: 6px 10px;
-      border-radius: 4px;
-      display: inline-block;
       margin-top: 20px;
-      font-size: 20px;
-      color: #fff;
-      background: rgb(45,108,237);
 
       &[disabled] {
         color: #000;

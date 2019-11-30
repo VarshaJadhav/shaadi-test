@@ -3,8 +3,7 @@ import './index.scss';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Login from './components/Login'
 import { PrivateRoute } from './routes';

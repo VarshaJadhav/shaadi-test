@@ -1,0 +1,35 @@
+.slides {
+  header {
+    position: fixed;
+    width: 100%;
+    padding: 30px 50px;
+    background: #fff;
+    box-shadow: 0 0 2px #000;
+    z-index: 15;
+    .username {
+      font-size: 22px;
+      font-weight: 600;
+      float:left;
+    }
+    .logout {
+      float: right;
+      cursor: pointer;
+      color: rgb(45,108,237)
+    }
+  }
+  main {
+    padding-top: 115px;
+    padding-left: 30px;
+
+    select {
+      height: 35px;
+      margin-right: 20px;
+      vertical-align: middle;
+      display: inline-block;
+    }
+    span {
+      vertical-align: middle;
+      cursor: pointer;
+    }
+  }
+}

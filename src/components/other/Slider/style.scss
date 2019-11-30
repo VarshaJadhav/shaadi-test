@@ -1,0 +1,23 @@
+.Carousel {
+  margin-top: 30px;
+  .ButtonWrapper {
+    display: none;
+  }
+  .CarouselItem > div {
+    div {
+      margin: 0 200px;
+      height: 300px;
+      text-align: center;
+      position: relative;
+      font-size: 36px;
+      font-weight: 600;
+      box-shadow: 0 0 2px #333;
+      span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+    }
+  }
+}

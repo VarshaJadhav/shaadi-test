@@ -70,7 +70,7 @@ class Login extends React.Component {
           </label>
           </div>
           <span className="error">{this.state.error}</span>
-          <input type="submit" value="Submit" disabled={this.isDisabled} className="submit"/>
+          <input type="submit" value="Submit" disabled={this.isDisabled} className="confirm-btn submit"/>
         </form>
       </div>
       )
