@@ -1,0 +1,58 @@
+.login-page {
+  max-width: 400px;
+  box-shadow: 0px 0 5px #eee;
+  border-radius: 10px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  h1 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: 30px;
+  }
+  form {
+    div {
+      margin-bottom: 15px;
+
+      label {
+        font-size: 20px;
+        text-transform: capitalize;
+        input {
+          width: 68%;
+          height: 40px;
+          margin-left: 10px;
+          font-size: 20px;
+          line-height: 22px;
+
+          &[type="password"] {
+            margin-left: 16px;
+          }
+          
+        }
+      }
+    }
+    .error {
+      color: #f00;
+      font-size: 14px;
+    }
+    .submit {
+      padding: 6px 10px;
+      border-radius: 4px;
+      display: inline-block;
+      margin-top: 20px;
+      font-size: 20px;
+      color: #fff;
+      background: rgb(45,108,237);
+
+      &[disabled] {
+        color: #000;
+        background: #dedede;
+        cursor: not-allowed;
+      }
+    }
+  }
+}
