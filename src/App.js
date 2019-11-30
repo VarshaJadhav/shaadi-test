@@ -1,11 +1,12 @@
 import React from 'react';
+import './index.scss';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
-import Login from './components/Login';
+import Login from './components/Login'
 import { PrivateRoute } from './routes';
 import Slides from './components/Slides';
 
